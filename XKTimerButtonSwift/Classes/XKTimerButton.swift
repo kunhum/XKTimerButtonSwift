@@ -19,22 +19,22 @@ public class XKTimerButton: UIButton {
     private var timerInterval  = 0
     
     ///倒数时的前缀,默认为 重新获取
-    var countingPrefix: String = "重新获取"
+    public var countingPrefix: String = "重新获取"
     ///倒数时的后缀,默认为 @""
-    var countingSuffix: String = ""
+    public var countingSuffix: String = ""
     ///倒计时状态下文字的颜色 默认为313131 50%
-    var countingTextColor: UIColor = UIColor(red: 49.0, green: 49.0, blue: 49.0, alpha: 1.0)
+    public var countingTextColor: UIColor = UIColor(red: 49.0/255.0, green: 49.0/255.0, blue: 49.0/255.0, alpha: 1.0)
     ///倒计时状态下背景的颜色 默认为dedede
-    var countingBackgroundColor: UIColor = UIColor(red: 222.0, green: 222.0, blue: 222.0, alpha: 222.0)
+    public var countingBackgroundColor: UIColor = UIColor(red: 222.0/255.0, green: 222.0/255.0, blue: 222.0/255.0, alpha: 1.0)
     ///倒计时状态下文字的颜色
-    var normalTextColor: UIColor = UIColor.black {
+    public var normalTextColor: UIColor = UIColor.black {
         
         didSet {
             setTitleColor(self.normalTextColor, for: .normal)
         }
     }
     ///倒计时状态下背景的颜色
-    var normalBackgroundColor: UIColor = UIColor.white
+    public var normalBackgroundColor: UIColor = UIColor.white
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -52,22 +52,22 @@ public class XKTimerButton: UIButton {
         
         xk_setTimerInterval()
         
-        if currentTitle != nil && (currentTitle! == "Button" || currentTitle! == "button") {
+        if currentTitle == nil || currentTitle! == "Button" || currentTitle! == "button" {
             setTitle("获取验证码", for: .normal)
         }
     }
     
     ///设置时间间隔，默认60秒
-    func xk_setTimerInterval(timerInterval interval: Int = 60) {
+    public func xk_setTimerInterval(timerInterval interval: Int = 60) {
         timerInterval   = interval
         settingInterval = interval
     }
     ///倒计时回调
-    func xk_timerCounting(callBack: @escaping (_ leftInterval: Int, _ button: XKTimerButton) -> Void) {
+    public func xk_timerCounting(callBack: @escaping (_ leftInterval: Int, _ button: XKTimerButton) -> Void) {
         _xkTimerCounting = callBack
     }
     ///开始倒计时
-    func xk_starCounting() {
+    public func xk_starCounting() {
         
         originalTitle   = currentTitle
         normalTextColor = currentTitleColor
