@@ -1,0 +1,6 @@
+framework module Pods_XKTimerButtonSwift_Example {
+  umbrella header "Pods-XKTimerButtonSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

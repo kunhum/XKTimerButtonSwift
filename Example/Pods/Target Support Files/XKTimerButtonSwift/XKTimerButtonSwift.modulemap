@@ -1,0 +1,6 @@
+framework module XKTimerButtonSwift {
+  umbrella header "XKTimerButtonSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

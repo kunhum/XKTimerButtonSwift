@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		044A7FF8BB0D7F542066B876 /* Pods-XKTimerButtonSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTimerButtonSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-XKTimerButtonSwift_Example/Pods-XKTimerButtonSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		214F1BB8834416A2F2D73CFF /* Pods_XKTimerButtonSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKTimerButtonSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D9509B510A7E11BF5C36C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		24D9509B510A7E11BF5C36C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKTimerButtonSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKTimerButtonSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		9ADEBDE7638BAEE485BEAAB7 /* Pods_XKTimerButtonSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKTimerButtonSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6850123953AFE1BE20172FE /* Pods-XKTimerButtonSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTimerButtonSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKTimerButtonSwift_Tests/Pods-XKTimerButtonSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7C09AEC6EA0A0E3959778A /* Pods-XKTimerButtonSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTimerButtonSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKTimerButtonSwift_Example/Pods-XKTimerButtonSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CEEFA107C87CE3BC0A90AB34 /* XKTimerButtonSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKTimerButtonSwift.podspec; path = ../XKTimerButtonSwift.podspec; sourceTree = "<group>"; };
-		D12494949B2CF53E2F14CBFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEEFA107C87CE3BC0A90AB34 /* XKTimerButtonSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKTimerButtonSwift.podspec; path = ../XKTimerButtonSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D12494949B2CF53E2F14CBFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				A6850123953AFE1BE20172FE /* Pods-XKTimerButtonSwift_Tests.debug.xcconfig */,
 				949A985F44E7C2D4876489EC /* Pods-XKTimerButtonSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

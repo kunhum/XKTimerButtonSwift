@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C07005DEB2A0E42E839E120A83E612 /* XKTimerButtonSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD551F861112460F9032F2215314CAD3 /* XKTimerButtonSwift-dummy.m */; };
+		031E6A1CBE73C0816ED819AC186681D6 /* Pods-XKTimerButtonSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ED627B0473803FD409B12BAEED25AA /* Pods-XKTimerButtonSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092565A4992C7754C25B75707F591554 /* Pods-XKTimerButtonSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B1FE55FFB70D0F9BC47F4DF5FEBC00 /* Pods-XKTimerButtonSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A97D6EF617AD70BE0A1CF2336F9B7E6 /* Pods-XKTimerButtonSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C38F8D558E554CBCB82FD3EA5D043 /* Pods-XKTimerButtonSwift_Tests-dummy.m */; };
+		8B043024BB6909C92832045F7476948A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F2AAA40498764B27E6BADCB5C77A00D /* Pods-XKTimerButtonSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CADEB9127EC9D6B913CC36B81600A05 /* Pods-XKTimerButtonSwift_Example-dummy.m */; };
+		C63C3741F4BF20EE5A75187FD9B5BEAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4ADFC70381AD1DE239E439A0021E449 /* XKTimerButtonSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A303D453764CCFD33393BAC2A2C915 /* XKTimerButtonSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD5839950E52EC3AE27D64D62AF8711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FC7BE37B0B6B09EF4563F7FDD5F26043 /* XKTimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2096D19B2911DECC5735B2F8A6AB0C /* XKTimerButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A889C8F1492477CDD1D17CB5DAA25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC1B6F0872C7188138C1DAB238D277E;
+			remoteInfo = XKTimerButtonSwift;
+		};
+		4F6228C939F72E785F78AEA1AA72B788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41654570B8DFCEB8F6C608D1D0FC9053;
+			remoteInfo = "Pods-XKTimerButtonSwift_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AD07F2E8112ABF196D5E37821878D3 /* XKTimerButtonSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKTimerButtonSwift.modulemap; sourceTree = "<group>"; };
+		113751AA2F2EC34513DA0787C83168C5 /* Pods-XKTimerButtonSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKTimerButtonSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		14ED627B0473803FD409B12BAEED25AA /* Pods-XKTimerButtonSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKTimerButtonSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1C1048FB9450EC0D2D72E4D0B7873FB0 /* Pods-XKTimerButtonSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKTimerButtonSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1EF6BA0D809C9234C0404C48D396BA97 /* XKTimerButtonSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKTimerButtonSwift.debug.xcconfig; sourceTree = "<group>"; };
+		2968BA9F5766EF4BC2E135D20BF13D12 /* Pods-XKTimerButtonSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKTimerButtonSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2EF2A061E18868330251D23167F8B086 /* Pods-XKTimerButtonSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKTimerButtonSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32B156C04ECC36474718D494C94ED7ED /* Pods-XKTimerButtonSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKTimerButtonSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		336681E25D7828DEA59DE2EA298868BF /* Pods_XKTimerButtonSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKTimerButtonSwift_Tests.framework; path = "Pods-XKTimerButtonSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		337319DDE2FBF3381C464DC90E08C35F /* Pods-XKTimerButtonSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKTimerButtonSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37EBB6DC23F7E296E9ABFC5DE0F11099 /* Pods-XKTimerButtonSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKTimerButtonSwift_Example.modulemap"; sourceTree = "<group>"; };
+		390DEA45C0EE83C5E638C92A8806A80C /* Pods-XKTimerButtonSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKTimerButtonSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		43FF76E7162F390322E1580060CF2750 /* XKTimerButtonSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKTimerButtonSwift-Info.plist"; sourceTree = "<group>"; };
+		5F1C38F8D558E554CBCB82FD3EA5D043 /* Pods-XKTimerButtonSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKTimerButtonSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		7897AAF4EEC9047AA9662068521D34A2 /* XKTimerButtonSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKTimerButtonSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8127F7C52A383D632F58A769BD4C168B /* XKTimerButtonSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKTimerButtonSwift-prefix.pch"; sourceTree = "<group>"; };
+		8D35F10B8C29A06510E882E0ABDEC13E /* Pods-XKTimerButtonSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKTimerButtonSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91A303D453764CCFD33393BAC2A2C915 /* XKTimerButtonSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKTimerButtonSwift-umbrella.h"; sourceTree = "<group>"; };
+		9CADEB9127EC9D6B913CC36B81600A05 /* Pods-XKTimerButtonSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKTimerButtonSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A37863F513E8B3944C2F080B87DFFC29 /* Pods_XKTimerButtonSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKTimerButtonSwift_Example.framework; path = "Pods-XKTimerButtonSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8774FE56283779A508524ABED2CC2E3 /* Pods-XKTimerButtonSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKTimerButtonSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		AF896106CE60936FC8B945F9948EF428 /* XKTimerButtonSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKTimerButtonSwift.release.xcconfig; sourceTree = "<group>"; };
+		BF689E51DC0A66B5BB3B772FB8EF38E3 /* XKTimerButtonSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKTimerButtonSwift.framework; path = XKTimerButtonSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9CFB6609BA8052F5703E7DE9555741 /* Pods-XKTimerButtonSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKTimerButtonSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		C081722E3BDB11E2F8CA6958B5E41777 /* Pods-XKTimerButtonSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKTimerButtonSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		CA2096D19B2911DECC5735B2F8A6AB0C /* XKTimerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKTimerButton.swift; path = XKTimerButtonSwift/Classes/XKTimerButton.swift; sourceTree = "<group>"; };
+		CB4433DEDCC2C42160E9D2E8F604379C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEE1A26ED0F089D625E4C5F487D47084 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF6783B85A8A77A1BBC9E595CB8C714C /* Pods-XKTimerButtonSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKTimerButtonSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1B1FE55FFB70D0F9BC47F4DF5FEBC00 /* Pods-XKTimerButtonSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKTimerButtonSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		FD551F861112460F9032F2215314CAD3 /* XKTimerButtonSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKTimerButtonSwift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D521E74F9EE0A1F32EC34043FD864D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5839950E52EC3AE27D64D62AF8711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01328441A812D5B5133AE1BB9A64B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63C3741F4BF20EE5A75187FD9B5BEAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC73A68C2DB396EB7D5E419985F02474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B043024BB6909C92832045F7476948A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4081D6B4834B2FFA5298511367AC98F5 /* Pods-XKTimerButtonSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				37EBB6DC23F7E296E9ABFC5DE0F11099 /* Pods-XKTimerButtonSwift_Example.modulemap */,
+				337319DDE2FBF3381C464DC90E08C35F /* Pods-XKTimerButtonSwift_Example-acknowledgements.markdown */,
+				113751AA2F2EC34513DA0787C83168C5 /* Pods-XKTimerButtonSwift_Example-acknowledgements.plist */,
+				9CADEB9127EC9D6B913CC36B81600A05 /* Pods-XKTimerButtonSwift_Example-dummy.m */,
+				2968BA9F5766EF4BC2E135D20BF13D12 /* Pods-XKTimerButtonSwift_Example-frameworks.sh */,
+				BF9CFB6609BA8052F5703E7DE9555741 /* Pods-XKTimerButtonSwift_Example-Info.plist */,
+				E1B1FE55FFB70D0F9BC47F4DF5FEBC00 /* Pods-XKTimerButtonSwift_Example-umbrella.h */,
+				2EF2A061E18868330251D23167F8B086 /* Pods-XKTimerButtonSwift_Example.debug.xcconfig */,
+				1C1048FB9450EC0D2D72E4D0B7873FB0 /* Pods-XKTimerButtonSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-XKTimerButtonSwift_Example";
+			path = "Target Support Files/Pods-XKTimerButtonSwift_Example";
+			sourceTree = "<group>";
+		};
+		6F5B62CFA189FB1F2D09423EF901A81F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1A26ED0F089D625E4C5F487D47084 /* LICENSE */,
+				CB4433DEDCC2C42160E9D2E8F604379C /* README.md */,
+				7897AAF4EEC9047AA9662068521D34A2 /* XKTimerButtonSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7718C8F889175937157A21ABAC6D14EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37863F513E8B3944C2F080B87DFFC29 /* Pods_XKTimerButtonSwift_Example.framework */,
+				336681E25D7828DEA59DE2EA298868BF /* Pods_XKTimerButtonSwift_Tests.framework */,
+				BF689E51DC0A66B5BB3B772FB8EF38E3 /* XKTimerButtonSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9602759DD5060B888947D4AE29DF8DE4 /* Pods-XKTimerButtonSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A8774FE56283779A508524ABED2CC2E3 /* Pods-XKTimerButtonSwift_Tests.modulemap */,
+				8D35F10B8C29A06510E882E0ABDEC13E /* Pods-XKTimerButtonSwift_Tests-acknowledgements.markdown */,
+				32B156C04ECC36474718D494C94ED7ED /* Pods-XKTimerButtonSwift_Tests-acknowledgements.plist */,
+				5F1C38F8D558E554CBCB82FD3EA5D043 /* Pods-XKTimerButtonSwift_Tests-dummy.m */,
+				C081722E3BDB11E2F8CA6958B5E41777 /* Pods-XKTimerButtonSwift_Tests-Info.plist */,
+				14ED627B0473803FD409B12BAEED25AA /* Pods-XKTimerButtonSwift_Tests-umbrella.h */,
+				DF6783B85A8A77A1BBC9E595CB8C714C /* Pods-XKTimerButtonSwift_Tests.debug.xcconfig */,
+				390DEA45C0EE83C5E638C92A8806A80C /* Pods-XKTimerButtonSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-XKTimerButtonSwift_Tests";
+			path = "Target Support Files/Pods-XKTimerButtonSwift_Tests";
+			sourceTree = "<group>";
+		};
+		AFE3C2809E6CD63D9CD42DDAB9C22128 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4081D6B4834B2FFA5298511367AC98F5 /* Pods-XKTimerButtonSwift_Example */,
+				9602759DD5060B888947D4AE29DF8DE4 /* Pods-XKTimerButtonSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9807CF68AE7BD5A398EB29CD1D5705B /* XKTimerButtonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CA2096D19B2911DECC5735B2F8A6AB0C /* XKTimerButton.swift */,
+				6F5B62CFA189FB1F2D09423EF901A81F /* Pod */,
+				DDB070DF606A712FDEA7F01B80F6DA21 /* Support Files */,
+			);
+			name = XKTimerButtonSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D223B8A28DB89248224F32810C0ED392 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7718C8F889175937157A21ABAC6D14EE /* Products */,
+				AFE3C2809E6CD63D9CD42DDAB9C22128 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D223B8A28DB89248224F32810C0ED392 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9807CF68AE7BD5A398EB29CD1D5705B /* XKTimerButtonSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DDB070DF606A712FDEA7F01B80F6DA21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AD07F2E8112ABF196D5E37821878D3 /* XKTimerButtonSwift.modulemap */,
+				FD551F861112460F9032F2215314CAD3 /* XKTimerButtonSwift-dummy.m */,
+				43FF76E7162F390322E1580060CF2750 /* XKTimerButtonSwift-Info.plist */,
+				8127F7C52A383D632F58A769BD4C168B /* XKTimerButtonSwift-prefix.pch */,
+				91A303D453764CCFD33393BAC2A2C915 /* XKTimerButtonSwift-umbrella.h */,
+				1EF6BA0D809C9234C0404C48D396BA97 /* XKTimerButtonSwift.debug.xcconfig */,
+				AF896106CE60936FC8B945F9948EF428 /* XKTimerButtonSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKTimerButtonSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		314C0AEA09BC556BCEACCD9B73143D22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031E6A1CBE73C0816ED819AC186681D6 /* Pods-XKTimerButtonSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DAB950C60CEAE535B3C466299FA9E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092565A4992C7754C25B75707F591554 /* Pods-XKTimerButtonSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DC3BCCA6292A3500AB5591DE5EA186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4ADFC70381AD1DE239E439A0021E449 /* XKTimerButtonSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		270379C497B52FC9FE1FDCB596648F56 /* Pods-XKTimerButtonSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A828C0AE6509BC7A81CE2D279E030B35 /* Build configuration list for PBXNativeTarget "Pods-XKTimerButtonSwift_Tests" */;
+			buildPhases = (
+				314C0AEA09BC556BCEACCD9B73143D22 /* Headers */,
+				42232FE4AE33998B4BE8DF37960ABCEE /* Sources */,
+				7D521E74F9EE0A1F32EC34043FD864D3 /* Frameworks */,
+				5A05572AB1881132A94475C47D8159EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD39B2D3F0AC4E1F0AB05CA98C42597 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKTimerButtonSwift_Tests";
+			productName = "Pods-XKTimerButtonSwift_Tests";
+			productReference = 336681E25D7828DEA59DE2EA298868BF /* Pods_XKTimerButtonSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41654570B8DFCEB8F6C608D1D0FC9053 /* Pods-XKTimerButtonSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF76DC5DA0E578E1AF840466BA188BE6 /* Build configuration list for PBXNativeTarget "Pods-XKTimerButtonSwift_Example" */;
+			buildPhases = (
+				33DAB950C60CEAE535B3C466299FA9E0 /* Headers */,
+				5B710F82C2A4F7FD8750E0D89F50E8B0 /* Sources */,
+				EC73A68C2DB396EB7D5E419985F02474 /* Frameworks */,
+				3837DEC48F8396A20A47590011547DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA84F46D60F8375F9C67FAABC960E6F /* PBXTargetDependency */,
+			);
+			name = "Pods-XKTimerButtonSwift_Example";
+			productName = "Pods-XKTimerButtonSwift_Example";
+			productReference = A37863F513E8B3944C2F080B87DFFC29 /* Pods_XKTimerButtonSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAC1B6F0872C7188138C1DAB238D277E /* XKTimerButtonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58024E65DCFBFF28C6EA34DAFCE5CBA /* Build configuration list for PBXNativeTarget "XKTimerButtonSwift" */;
+			buildPhases = (
+				82DC3BCCA6292A3500AB5591DE5EA186 /* Headers */,
+				C9116352547509C738F706E3EE46B29B /* Sources */,
+				E01328441A812D5B5133AE1BB9A64B0D /* Frameworks */,
+				C3B646A1592A993434F14C2B12CB1999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKTimerButtonSwift;
+			productName = XKTimerButtonSwift;
+			productReference = BF689E51DC0A66B5BB3B772FB8EF38E3 /* XKTimerButtonSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7718C8F889175937157A21ABAC6D14EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41654570B8DFCEB8F6C608D1D0FC9053 /* Pods-XKTimerButtonSwift_Example */,
+				270379C497B52FC9FE1FDCB596648F56 /* Pods-XKTimerButtonSwift_Tests */,
+				AAC1B6F0872C7188138C1DAB238D277E /* XKTimerButtonSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3837DEC48F8396A20A47590011547DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A05572AB1881132A94475C47D8159EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B646A1592A993434F14C2B12CB1999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42232FE4AE33998B4BE8DF37960ABCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A97D6EF617AD70BE0A1CF2336F9B7E6 /* Pods-XKTimerButtonSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B710F82C2A4F7FD8750E0D89F50E8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AAA40498764B27E6BADCB5C77A00D /* Pods-XKTimerButtonSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9116352547509C738F706E3EE46B29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7BE37B0B6B09EF4563F7FDD5F26043 /* XKTimerButton.swift in Sources */,
+				02C07005DEB2A0E42E839E120A83E612 /* XKTimerButtonSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA84F46D60F8375F9C67FAABC960E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKTimerButtonSwift;
+			target = AAC1B6F0872C7188138C1DAB238D277E /* XKTimerButtonSwift */;
+			targetProxy = 21A889C8F1492477CDD1D17CB5DAA25B /* PBXContainerItemProxy */;
+		};
+		DAD39B2D3F0AC4E1F0AB05CA98C42597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKTimerButtonSwift_Example";
+			target = 41654570B8DFCEB8F6C608D1D0FC9053 /* Pods-XKTimerButtonSwift_Example */;
+			targetProxy = 4F6228C939F72E785F78AEA1AA72B788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EC9F20A709F8A72C2619DA23AD8E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF896106CE60936FC8B945F9948EF428 /* XKTimerButtonSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKTimerButtonSwift/XKTimerButtonSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKTimerButtonSwift/XKTimerButtonSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKTimerButtonSwift/XKTimerButtonSwift.modulemap";
+				PRODUCT_MODULE_NAME = XKTimerButtonSwift;
+				PRODUCT_NAME = XKTimerButtonSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		377943F6C59A30C939D4CAE462E6FC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390DEA45C0EE83C5E638C92A8806A80C /* Pods-XKTimerButtonSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Tests/Pods-XKTimerButtonSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Tests/Pods-XKTimerButtonSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FEBA80A8D93CCAE03DE4CC12744A689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF6BA0D809C9234C0404C48D396BA97 /* XKTimerButtonSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKTimerButtonSwift/XKTimerButtonSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKTimerButtonSwift/XKTimerButtonSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKTimerButtonSwift/XKTimerButtonSwift.modulemap";
+				PRODUCT_MODULE_NAME = XKTimerButtonSwift;
+				PRODUCT_NAME = XKTimerButtonSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97CAB0D4C5C3D7D59B5F0FDFDB696AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1048FB9450EC0D2D72E4D0B7873FB0 /* Pods-XKTimerButtonSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Example/Pods-XKTimerButtonSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Example/Pods-XKTimerButtonSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADDFAF55FEDC22EE5A55A4DC50DF22C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF2A061E18868330251D23167F8B086 /* Pods-XKTimerButtonSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Example/Pods-XKTimerButtonSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Example/Pods-XKTimerButtonSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D85B1E43A0A3A9C3AC6B6ED3CE4CE77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6783B85A8A77A1BBC9E595CB8C714C /* Pods-XKTimerButtonSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Tests/Pods-XKTimerButtonSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKTimerButtonSwift_Tests/Pods-XKTimerButtonSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58024E65DCFBFF28C6EA34DAFCE5CBA /* Build configuration list for PBXNativeTarget "XKTimerButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEBA80A8D93CCAE03DE4CC12744A689 /* Debug */,
+				1EC9F20A709F8A72C2619DA23AD8E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A828C0AE6509BC7A81CE2D279E030B35 /* Build configuration list for PBXNativeTarget "Pods-XKTimerButtonSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85B1E43A0A3A9C3AC6B6ED3CE4CE77B /* Debug */,
+				377943F6C59A30C939D4CAE462E6FC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF76DC5DA0E578E1AF840466BA188BE6 /* Build configuration list for PBXNativeTarget "Pods-XKTimerButtonSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDFAF55FEDC22EE5A55A4DC50DF22C3 /* Debug */,
+				97CAB0D4C5C3D7D59B5F0FDFDB696AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

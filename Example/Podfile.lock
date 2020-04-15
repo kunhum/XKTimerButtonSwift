@@ -1,0 +1,16 @@
+PODS:
+  - XKTimerButtonSwift (1.1.0)
+
+DEPENDENCIES:
+  - XKTimerButtonSwift (from `../`)
+
+EXTERNAL SOURCES:
+  XKTimerButtonSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKTimerButtonSwift: 72d2330879e3d679e0ab455442793bacbdd1e8a2
+
+PODFILE CHECKSUM: 97eac83ab242af0f1ce04543c009cc1f56ff8553
+
+COCOAPODS: 1.9.1
