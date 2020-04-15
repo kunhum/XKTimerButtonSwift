@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class XKTimerButton: UIButton {
+public class XKTimerButton: UIButton {
     
     private var _xkTimerCounting: ((_ leftInterval: Int, _ button: XKTimerButton) -> Void)?
     private var timer: DispatchSourceTimer?
