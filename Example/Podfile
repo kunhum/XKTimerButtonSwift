@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XKTimerButtonSwift_Example' do
+  pod 'XKTimerButtonSwift', :path => '../'
+
+  target 'XKTimerButtonSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
